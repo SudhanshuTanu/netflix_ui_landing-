@@ -5,8 +5,6 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    overflow-x: hidden;
-    /* hello */
 }
 
 body {
@@ -267,6 +265,9 @@ footer {
 
 /* Smartphones (max-width: 700px) */
 @media (max-width: 700px) {
+    *{
+        overflow-x: hidden;
+    }
     .main {
         height: auto;
         width: auto;
@@ -396,11 +397,14 @@ footer {
 
 /* Tablets (min-width: 600px and max-width: 900px) */
 @media (min-width: 700px) and (max-width: 1200px) {
+    *{
+        overflow-x: hidden;
+    }
     .main {
         height: auto;
     }
     .main .box {
-        height: 450px;
+        height: 510px;
         width: 100%;
         top: 0;
     }
